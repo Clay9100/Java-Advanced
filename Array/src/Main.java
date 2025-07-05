@@ -6,6 +6,12 @@ public class Main {
 
         // Array int create
 
+        int [] numbers = {81,-2,13,4,45,6,-7,8,39,-10};
+
+        for(int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+
 
 
     }
