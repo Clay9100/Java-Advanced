@@ -70,6 +70,31 @@ public class Main {
         }*/
 
 
+        // *
+        // * *
+        // *   *
+        // *     *
+        // *       *
+        // * * * * * *
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter row: ");
+        int row = in.nextInt();
+        System.out.print("Enter col: ");
+        int col = in.nextInt();
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if (i == j || j == 0 || i == row - 1) {
+                    System.out.print(" * ");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
+
 
 
     }
