@@ -10,6 +10,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number");
         int x = input.nextInt();
+        int p = x;
 
         int sum = 0;
         while (x != 0) {
@@ -20,6 +21,12 @@ public class Main {
         }
 
         System.out.println(sum);
+
+        if(p == sum){
+            System.out.printf("This is number %d Polindrom number", p);
+        }else {
+            System.out.printf("This is number %d not Polindrom number", p);
+        }
 
 
 
