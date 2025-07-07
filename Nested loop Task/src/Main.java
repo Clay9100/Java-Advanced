@@ -7,7 +7,8 @@ public class Main {
         // 1 + 22 + 333 + 4444 + 55555 ....
 
 
-        long summa = 0;
+        // String
+       /* int summa = 0;
         for (int i = 1; i <= 5 ; i++) {
             String s = "";
             for (int j = 1; j <= i ; j++) {
@@ -16,6 +17,21 @@ public class Main {
             System.out.print(s + " + ");
             //System.out.println(s);
             summa += Integer.parseInt(s);
+        }
+
+        System.out.println("\nsumma = " + summa);*/
+
+        // number
+
+        int summa = 0;
+
+        for (int i = 1; i <= 5; i++) {
+            int s = 0;
+            for (int j = 1; j <= i; j++) {
+                s = s * 10 + i;
+            }
+            System.out.print(s + " + ");
+            summa += s;
         }
 
         System.out.println("\nsumma = " + summa);
