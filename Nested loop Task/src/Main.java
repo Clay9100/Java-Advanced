@@ -12,13 +12,13 @@ public class Main {
             String s = "";
             for (int j = 1; j <= i ; j++) {
                 s += i;
-
             }
-            System.out.println(s);
+            System.out.print(s + " + ");
+            //System.out.println(s);
             summa += Integer.parseInt(s);
         }
 
-        System.out.println("summa = " + summa);
+        System.out.println("\nsumma = " + summa);
 
 
     }
