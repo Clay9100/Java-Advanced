@@ -14,8 +14,8 @@ public class Main {
 
         int sum = 0;
         while (x != 0) {
-            int q = x % 10;
-            sum = sum * 10 + q;
+            //int q = x % 10;
+            sum = sum * 10 + x % 10;
             //System.out.println(q);
             x /= 10;
         }
