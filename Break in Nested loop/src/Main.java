@@ -29,7 +29,7 @@ public class Main {
 
         // String in find user
 
-        String []users = {"admin", "user", "clay", "temp", "easy"};
+       /* String []users = {"admin", "user", "clay", "temp", "easy"};
 
         boolean check = false;
         String fUser = "clay1";
@@ -41,7 +41,7 @@ public class Main {
         }
 
         String strUser = check ? "Found": "Not found";
-        System.out.printf("%s %s", fUser, strUser + " user");
+        System.out.printf("%s %s", fUser, strUser + " user");*/
 
 
     }
