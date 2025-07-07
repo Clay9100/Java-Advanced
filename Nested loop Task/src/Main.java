@@ -30,7 +30,11 @@ public class Main {
             for (int j = 1; j <= i; j++) {
                 s = s * 10 + i;
             }
-            System.out.print(s + " + ");
+            System.out.print(s);
+
+            if(i != 5){
+                System.out.print(" + ");
+            }
             summa += s;
         }
 
