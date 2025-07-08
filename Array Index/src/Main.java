@@ -19,6 +19,19 @@ public class Main {
 
         System.out.println(cars[cars.length - 1]);*/
 
+        // array length
+
+        /*int[] nums = new int[]{1, 2, 3, 23, 76, -9, 56};
+
+        System.out.println(nums.length);
+
+        int i = 0;
+
+        while (i < nums.length) {
+            System.out.printf("%d, ", nums[i]);
+            i++;
+        }*/
+
 
 
 
