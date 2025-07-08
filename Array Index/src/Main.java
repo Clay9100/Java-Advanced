@@ -5,6 +5,14 @@ public class Main {
 
         // this is lesson array index
 
+        // int
+
+        int[] elements = {19, 3, 4, 12, 53, 90};
+
+        System.out.println(elements[0]);
+        System.out.println(elements[1]);
+        System.out.println(elements[2]);
+
 
     }
 }
