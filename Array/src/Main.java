@@ -36,11 +36,21 @@ public class Main {
 
         // boolean
 
-        boolean[] check = {true, true, false, true, false, false, true};
+       /* boolean[] check = {true, true, false, true, false, false, true};
 
         for (boolean b : check) {
             System.out.printf("%b, ", b);
-        }
+        }*/
+
+        // byte
+
+        /*byte[] by = {1, 2, 3, 12, 4, 5, 26};
+
+        for (byte b : by) {
+            System.out.printf("%d, ", b);
+        }*/
+
+
 
 
     }
