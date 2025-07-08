@@ -32,23 +32,24 @@ public class Main {
 
         // counter elements
 
-        int[] k = {2, 1, 4, 56, 3, 8, 9, 0};
+        int[] k = {2, 1, 3, 56, 3, 8, 3, 0};
 
         for (int i : k) {
             System.out.printf("%d, ", i);
         }
 
-        System.out.print("\nEnter find element: ");
+        System.out.print("\nEnter counter elements: ");
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
 
-        boolean check = false;
+        int count = 0;
         for (int i : k) {
             if (i == n) {
-                check = true;
-                break;
+                count++;
             }
         }
+
+        System.out.printf("counter: %d ", count);
 
 
 
