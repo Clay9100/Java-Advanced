@@ -7,11 +7,17 @@ public class Main {
 
         // int
 
-        int[] elements = {19, 3, 4, 12, 53, 90};
+        /*int[] elements = {19, 3, 4, 12, 53, 90};
 
         System.out.println(elements[0]);
         System.out.println(elements[1]);
-        System.out.println(elements[2]);
+        System.out.println(elements[2]);*/
+
+        // String last index
+
+        String[] cars = {"Lada", "Mazda", "Toyota", "Chevrolet"};
+
+        System.out.println(cars[cars.length - 1]);
 
 
     }
