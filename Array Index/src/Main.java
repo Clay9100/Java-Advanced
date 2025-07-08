@@ -35,7 +35,7 @@ public class Main {
 
         // array element change
 
-        int[] nums = new int[]{1, 2, 3, 23, 76, -9, 56};
+       /* int[] nums = new int[]{1, 2, 3, 23, 76, -9, 56};
 
         //System.out.println(nums[0]);
 
@@ -48,7 +48,7 @@ public class Main {
 
         for (int num : nums) {
             System.out.printf("%d, ", num);
-        }
+        }*/
 
 
 
