@@ -14,9 +14,17 @@ public class Main {
 
         // Array String
 
-        String []cars = {"Lada", "Mazda", "Volvo", "Toyota"};
+        /*String []cars = {"Lada", "Mazda", "Volvo", "Toyota"};
         for (int i = 0; i < cars.length; i++) {
             System.out.println(cars[i]);
+        }*/
+
+        // float
+
+        float[] f = {2.4f, 1.2f, 3.3f, 4.4f, 5.4f};
+
+        for (float v : f) {
+            System.out.print(v + ", ");
         }
 
 

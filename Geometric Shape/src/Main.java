@@ -103,7 +103,7 @@ public class Main {
         //  * * * * *
         // * * * * * *
 
-        Scanner in = new Scanner(System.in);
+        /*Scanner in = new Scanner(System.in);
 
         System.out.print("Enter row: ");
         int row = in.nextInt();
@@ -117,6 +117,25 @@ public class Main {
             }
             for (int j = 0; j <= i; j++) {
                 System.out.print("* ");
+            }
+            System.out.println();
+        }*/
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter row: ");
+        int row = in.nextInt();
+        System.out.print("Enter col: ");
+        int col = in.nextInt();
+
+        for (int i = 0; i < row; i++) {
+
+            for (int j = 0; j < col; j++) {
+                if (j < row - i - 1) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("* ");
+                }
             }
             System.out.println();
         }
