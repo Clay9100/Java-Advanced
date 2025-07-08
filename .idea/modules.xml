@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array Index/Array Index.iml" filepath="$PROJECT_DIR$/Array Index/Array Index.iml" />
       <module fileurl="file://$PROJECT_DIR$/Break in Nested loop/Break in Nested loop.iml" filepath="$PROJECT_DIR$/Break in Nested loop/Break in Nested loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Continue in Nested loop/Continue in Nested loop.iml" filepath="$PROJECT_DIR$/Continue in Nested loop/Continue in Nested loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geometric Shape/Geometric Shape.iml" filepath="$PROJECT_DIR$/Geometric Shape/Geometric Shape.iml" />
