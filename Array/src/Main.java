@@ -29,14 +29,18 @@ public class Main {
 
         // char 
 
-        char[] letters = {'1', '@', '&', '*', 'A', '/', '.'};
+        /*char[] letters = {'1', '@', '&', '*', 'A', '/', '.'};
         for (char letter : letters) {
             System.out.printf("%c, ", letter);
+        }*/
+
+        // boolean
+
+        boolean[] check = {true, true, false, true, false, false, true};
+
+        for (boolean b : check) {
+            System.out.printf("%b, ", b);
         }
-
-
-
-
 
 
     }
