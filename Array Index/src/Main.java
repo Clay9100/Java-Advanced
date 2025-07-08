@@ -33,6 +33,24 @@ public class Main {
         }*/
 
 
+        // array element change
+
+        int[] nums = new int[]{1, 2, 3, 23, 76, -9, 56};
+
+        //System.out.println(nums[0]);
+
+        for (int num : nums) {
+            System.out.printf("%d, ", num);
+        }
+        System.out.println();
+        nums[0] = -90;
+        //System.out.println(nums[0]);
+
+        for (int num : nums) {
+            System.out.printf("%d, ", num);
+        }
+
+
 
 
     }
