@@ -49,7 +49,7 @@ public class Main {
             System.out.printf("%d, ", b);
         }*/
 
-        int[] k = new int[10];
+        /*int[] k = new int[10];
         k[0] = 1;
         k[2] = -9;
         k[4] = 8;
@@ -57,11 +57,18 @@ public class Main {
 
         // k[10] = 34; // error array length form 0 to 9
 
-        /*System.out.println(k[0]);
-        System.out.println(k[9]);*/
+        *//*System.out.println(k[0]);
+        System.out.println(k[9]);*//*
 
         for (int i : k) {
             System.out.printf("%d, ", i);
+        }*/
+
+
+        long[] l = new long[]{1, 2, 3, 23, 76, -9, 56};
+
+        for (long l1 : l) {
+            System.out.printf("%d, ", l1);
         }
 
 
