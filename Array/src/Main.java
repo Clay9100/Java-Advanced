@@ -21,10 +21,17 @@ public class Main {
 
         // float
 
-        float[] f = {2.4f, 1.2f, 3.3f, 4.4f, 5.4f};
+        /*float[] f = {2.4f, 1.2f, 3.3f, 4.4f, 5.4f};
 
         for (float v : f) {
             System.out.print(v + ", ");
+        }*/
+
+        // char 
+
+        char[] letters = {'1', '@', '&', '*', 'A', '/', '.'};
+        for (char letter : letters) {
+            System.out.printf("%c, ", letter);
         }
 
 
