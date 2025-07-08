@@ -15,9 +15,11 @@ public class Main {
 
         // String last index
 
-        String[] cars = {"Lada", "Mazda", "Toyota", "Chevrolet"};
+        /*String[] cars = {"Lada", "Mazda", "Toyota", "Chevrolet"};
 
-        System.out.println(cars[cars.length - 1]);
+        System.out.println(cars[cars.length - 1]);*/
+
+
 
 
     }
