@@ -7,7 +7,7 @@ public class Main {
 
         // this is lesson matrix chess
 
-        Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         System.out.print("Enter row: ");
         int row = input.nextInt();
         System.out.print("Enter column: ");
@@ -28,7 +28,9 @@ public class Main {
         }
 
         PrintMatrix(chess, row, column);
+*/
 
+        System.out.println(Math.pow(2, 64));
 
     }
 
