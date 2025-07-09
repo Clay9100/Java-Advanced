@@ -15,13 +15,32 @@ public class Main {
 
         // double
 
-        double[] d = new double[]{9.8, 4, 5, 6, 2.3};
+        /*double[] d = new double[]{9.8, 4, 5, 6, 2.3};
         double[] d1 = new double[]{};
         double[] d2 = {};
 
         System.out.println(d[0]);
         System.out.println(d1[0]);
-        System.out.println(d2[0]);
+        System.out.println(d2[0]);*/
+
+        // char
+
+        /*char[]b = new char[3];
+
+        System.out.println(b[0]); // spec
+        */
+
+        // boolean
+
+        /*boolean[] b = new boolean[3];
+        System.out.println(b[0]); // false*/
+
+        // String
+
+        String[] str = new String[3];
+        System.out.println(str[0]); // null
+
+
 
     }
 }
