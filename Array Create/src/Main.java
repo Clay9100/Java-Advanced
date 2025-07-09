@@ -17,6 +17,7 @@ public class Main {
 
         /*double[] d = new double[]{9.8, 4, 5, 6, 2.3};
         double[] d1 = new double[]{};
+        double[] d1 = new double[10]; // {0.0, 0.0, 0.0, 0.0, 0.0}
         double[] d2 = {};
 
         System.out.println(d[0]);
@@ -37,8 +38,25 @@ public class Main {
 
         // String
 
-        String[] str = new String[3];
-        System.out.println(str[0]); // null
+       /* String[] str = new String[3];
+        System.out.println(str[0]); // null*/
+
+        // Array length
+
+        int[] k = {1, 2, 3, 4, 5, 5};
+
+        for (int i = 0; i < k.length; i++) {
+            System.out.printf("%d, ", k[i]);
+        }
+
+        // reverse array loop
+        System.out.println();
+
+        for (int i = k.length - 1; i >= 0; i--) {
+            System.out.printf("%d, ", k[i]);
+        }
+
+
 
 
 
