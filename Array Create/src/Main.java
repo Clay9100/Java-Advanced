@@ -5,5 +5,13 @@ public class Main {
 
         // this is lesson array create
 
+        int[] k = {1, 2, 3, 4, 5};
+        int[] v = new int[]{1, 2, 3, 4, 5};
+        int[] f = {};
+
+        // System.out.println(k[0]);
+        // System.out.println(v[0]);
+        // System.out.println(f[0]); // error zero element not create
+
     }
 }
