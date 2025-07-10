@@ -13,6 +13,7 @@ public class Main {
 
         System.out.println();
 
+        // liner sort
         for (int i = 0; i < k.length; i++) {
             for (int j = 0; j < k.length; j++) {
                 if (k[i] < k[j]) {
