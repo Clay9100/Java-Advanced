@@ -13,6 +13,20 @@ public class Main {
 
         System.out.println();
 
+        for (int i = 0; i < k.length; i++) {
+            for (int j = 0; j < k.length; j++) {
+                if (k[i] < k[j]) {
+                    int temp = k[i];
+                    k[i] = k[j];
+                    k[j] = temp;
+                }
+            }
+        }
+
+        for (int i : k) {
+            System.out.print(i + ", ");
+        }
+
 
 
 
