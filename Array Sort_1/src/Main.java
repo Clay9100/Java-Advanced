@@ -16,7 +16,7 @@ public class Main {
         for (int i = 0; i < k.length; i++) {
             for (int j = 0; j < k.length; j++) {
                 if (k[i] < k[j]) {
-                    int temp = k[i];
+                    int temp = k[i]; // swap element
                     k[i] = k[j];
                     k[j] = temp;
                 }
