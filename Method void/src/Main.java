@@ -8,7 +8,10 @@ public class Main {
         greeting();
         greeting();*/
 
-        greeting2("Muhammad");
+        //greeting2("Muhammad");
+
+        infoPerson("Ali", 23);
+
 
 
 
@@ -23,5 +26,10 @@ public class Main {
 
     public static void greeting2(String name){
         System.out.println("Hello World " + name);
+    }
+
+    public static void infoPerson(String name, int age){
+        System.out.printf("My name is %s \n", name);
+        System.out.printf("My age is %d", age);
     }
 }
