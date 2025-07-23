@@ -29,8 +29,19 @@ public class Main {
 
         // matrix change line element
 
+       /* arr[0][0] = -78;
+        System.out.println(arr[0][0]);*/
+
+        // sikl
+
         arr[0][0] = -78;
-        System.out.println(arr[0][0]);
+
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 4; j++) {
+                System.out.printf("%d ", arr[i][j]);
+            }
+            System.out.println();
+        }
 
 
     }
