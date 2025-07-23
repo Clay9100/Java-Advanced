@@ -5,5 +5,24 @@ public class Main {
 
         // this is matrix array
 
+        // one line array
+
+        int []k = {1,2,3,4};
+
+        // two line array
+
+        int [][]arr = {
+                {3,2,4,5},
+                {6,5,7,8},
+        };
+
+        // array address
+
+        //System.out.println("arr = " + arr);
+        // array line
+        /*System.out.println(arr[0]);
+        System.out.println(arr[1]);*/
+        System.out.println(arr[0][0]);
+
     }
 }
