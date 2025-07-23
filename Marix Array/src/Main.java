@@ -22,7 +22,11 @@ public class Main {
         // array line
         /*System.out.println(arr[0]);
         System.out.println(arr[1]);*/
-        System.out.println(arr[0][0]);
+        //System.out.println(arr[0][0]);
+
+        int []t = arr[0];
+        System.out.println(t[0]);
+
 
     }
 }
