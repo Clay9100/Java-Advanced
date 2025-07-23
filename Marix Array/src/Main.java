@@ -24,8 +24,13 @@ public class Main {
         System.out.println(arr[1]);*/
         //System.out.println(arr[0][0]);
 
-        int []t = arr[0];
-        System.out.println(t[0]);
+        /*int []t = arr[0];
+        System.out.println(t[0]);*/
+
+        // matrix change line element
+
+        arr[0][0] = -78;
+        System.out.println(arr[0][0]);
 
 
     }
