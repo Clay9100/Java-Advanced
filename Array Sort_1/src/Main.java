@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
 
@@ -25,8 +24,8 @@ public class Main {
         }*/
 
 
-        for (int i = 0; i < k.length-1; i++) {
-            for (int j = i+1; j < k.length; j++) {
+        for (int i = 0; i < k.length - 1; i++) {
+            for (int j = i + 1; j < k.length; j++) {
                 if (k[i] > k[j]) {
                     int temp = k[i];
                     k[i] = k[j];
