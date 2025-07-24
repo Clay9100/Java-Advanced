@@ -32,4 +32,6 @@ public class Main {
         System.out.printf("My name is %s \n", name);
         System.out.printf("My age is %d", age);
     }
+
+
 }
