@@ -11,21 +11,28 @@ public class Main {
        /* int r = sub(4,3);
         System.out.println("r = " + r);*/
 
-         int r = sub(4,3);
-        System.out.println("r = " + r);
+         /*int r = mul(4,3);
+         System.out.println("r = " + r);*/
+
+         int r = div(4,3);
+         System.out.println("r = " + r);
 
     }
 
     public static int add(int a, int b){
-        return a+b;
+        return a + b;
     }
 
     public static int sub(int a, int b){
-        return a-b;
+        return a - b;
     }
 
     public static int mul(int a, int b){
-        return a*b;
+        return a * b;
+    }
+
+    public static int div(int a, int b){
+        return a / b;
     }
 
 
