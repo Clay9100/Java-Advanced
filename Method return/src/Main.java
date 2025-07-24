@@ -14,8 +14,11 @@ public class Main {
          /*int r = mul(4,3);
          System.out.println("r = " + r);*/
 
-         int r = mod(4,3);
-         System.out.println("r = " + r);
+         /*int r = mod(4,3);
+         System.out.println("r = " + r);*/
+
+        int r = mod(4,3);
+        System.out.println("r = " + r);
 
     }
 
@@ -38,5 +41,8 @@ public class Main {
         return a % b;
     }
 
+    public static String str(int a){
+        return String.valueOf(a);
+    }
 
 }
