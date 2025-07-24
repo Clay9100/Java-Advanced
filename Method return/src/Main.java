@@ -23,6 +23,9 @@ public class Main {
         /*int r = letter(65);
         System.out.println("r = " + r);*/
 
+        boolean r = checkPasword("Hello!91%^-$%");
+        System.out.println("r = " + r);
+
 
 
     }
