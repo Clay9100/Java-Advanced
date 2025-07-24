@@ -23,12 +23,28 @@ public class Main {
         /*int r = letter(65);
         System.out.println("r = " + r);*/
 
-        boolean r = checkPasword("Hello!91%^-$%");
+       /* boolean r = checkPasword("Hello!91%^-$%");
+        System.out.println("r = " + r);*/
+
+       /* double r = add(4.5,3);
+        System.out.println("r = " + r);*/
+
+        float r = tax(1000000,12);
         System.out.println("r = " + r);
 
 
 
+
     }
+
+    public static float tax(float a, float b){
+        return a * (b / 100.0f) ;
+    }
+
+    public static double add(double a, double b){
+        return a+b;
+    }
+
     public static boolean checkPasword(String p){
         return  p.matches("[a-zA-Z]+");
     }
