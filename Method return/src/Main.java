@@ -17,7 +17,7 @@ public class Main {
          /*int r = mod(4,3);
          System.out.println("r = " + r);*/
 
-        int r = mod(4,3);
+        String r = str(4);
         System.out.println("r = " + r);
 
     }
@@ -43,6 +43,10 @@ public class Main {
 
     public static String str(int a){
         return String.valueOf(a);
+    }
+
+    public static char letter(int a){
+        return (char)a;
     }
 
 }
