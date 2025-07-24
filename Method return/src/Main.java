@@ -5,13 +5,17 @@ public class Main {
 
         // this is lesson method return type
 
-        int r = add(2,3);
-        System.out.println("r = " + r);
+       /* int r = add(2,3);
+        System.out.println("r = " + r);*/
 
     }
 
     public static int add(int a, int b){
         return a+b;
+    }
+
+    public static int sub(int a, int b){
+        return a-b;
     }
 
 
