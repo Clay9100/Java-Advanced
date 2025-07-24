@@ -10,7 +10,10 @@ public class Main {
 
         //greeting2("Muhammad");
 
+        String []info = {"Hello", "34", "1991"};
+
         infoPerson("Ali", 23);
+        infoMoreParams(info);
 
 
 
@@ -31,6 +34,14 @@ public class Main {
     public static void infoPerson(String name, int age){
         System.out.printf("My name is %s \n", name);
         System.out.printf("My age is %d", age);
+    }
+
+    // more params input
+    public static void infoMoreParams(String ... p){
+
+        for (String s : p) {
+            System.out.printf("%s ", s);
+        }
     }
 
 
