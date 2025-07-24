@@ -7,6 +7,12 @@ public class Main {
 
        /* int r = add(2,3);
         System.out.println("r = " + r);*/
+        
+       /* int r = sub(4,3);
+        System.out.println("r = " + r);*/
+
+         int r = sub(4,3);
+        System.out.println("r = " + r);
 
     }
 
@@ -16,6 +22,10 @@ public class Main {
 
     public static int sub(int a, int b){
         return a-b;
+    }
+
+    public static int mul(int a, int b){
+        return a*b;
     }
 
 
