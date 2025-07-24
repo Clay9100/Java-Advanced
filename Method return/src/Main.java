@@ -17,9 +17,17 @@ public class Main {
          /*int r = mod(4,3);
          System.out.println("r = " + r);*/
 
-        String r = str(4);
-        System.out.println("r = " + r);
+       /* String r = str(4);
+        System.out.println("r = " + r);*/
 
+        /*int r = letter(65);
+        System.out.println("r = " + r);*/
+
+
+
+    }
+    public static boolean checkPasword(String p){
+        return  p.matches("[a-zA-Z]+");
     }
 
     public static int add(int a, int b){
