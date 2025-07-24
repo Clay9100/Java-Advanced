@@ -14,7 +14,7 @@ public class Main {
          /*int r = mul(4,3);
          System.out.println("r = " + r);*/
 
-         int r = div(4,3);
+         int r = mod(4,3);
          System.out.println("r = " + r);
 
     }
@@ -33,6 +33,9 @@ public class Main {
 
     public static int div(int a, int b){
         return a / b;
+    }
+    public static int mod(int a, int b){
+        return a % b;
     }
 
 
