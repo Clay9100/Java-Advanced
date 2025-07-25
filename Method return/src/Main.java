@@ -29,12 +29,19 @@ public class Main {
        /* double r = add(4.5,3);
         System.out.println("r = " + r);*/
 
-        float r = tax(1000000,12);
+        /*float r = tax(1000000,12);
+        System.out.println("r = " + r);*/
+
+        short r = summa((short) 5,(short) 6);
         System.out.println("r = " + r);
 
 
 
 
+    }
+
+    public static short summa(short a,short b){
+        return (short)(a+b);
     }
 
     public static float tax(float a, float b){
