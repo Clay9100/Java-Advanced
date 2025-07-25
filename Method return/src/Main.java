@@ -36,10 +36,17 @@ public class Main {
         System.out.println("r = " + r);*/
 
 
-        String str = checkPositive(3);
-        System.out.println(str);
+        /*String str = checkPositive(3);
+        System.out.println(str);*/
+
+        int maxN = maxNumber(4,5);
+        System.out.println("maxN = " + maxN);
 
 
+    }
+
+    public static int maxNumber(int x, int y){
+        return x > y ? x : y;
     }
 
     public static String checkPositive(int x){
