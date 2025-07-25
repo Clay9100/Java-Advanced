@@ -37,6 +37,9 @@ public class Main {
 
         System.out.println("Found element : " + Arrays.binarySearch(k, 3));
 
+        int []copyArray = Arrays.copyOf(k, 3);
+        System.out.println("Copy array: " + Arrays.toString(copyArray));
+
 
 
 
