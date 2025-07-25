@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -7,10 +9,16 @@ public class Main {
 
 
         int []k = {2,1,3,5,64,0};
-        arrayPrint(k);
+        //arrayPrint(k);
+
+        String strK = Arrays.toString(k);
+        System.out.println(strK);
 
         String [] cars = {"AUDI", "MAZDA", "LADA", "CHEVROLET", "TOYOTA"};
-        arrayPrint(cars);
+       // arrayPrint(cars);
+
+        String strC = Arrays.toString(cars);
+        System.out.println(strC);
 
 
 
