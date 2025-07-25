@@ -34,7 +34,7 @@ public class Main {
 
         // int asscii table
 
-        int numberC = (int) str.charAt(0);
+        int numberC = str.charAt(0);
         System.out.println(numberC);
 
 
