@@ -38,9 +38,9 @@ public class Main {
             }
         }
         return max;
-
-
     }
+
+
     public static int maxNumber(int x, int y, int z) {
         int k = maxNumber(x, y);
         return k > z? k : z;
