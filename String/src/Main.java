@@ -42,10 +42,6 @@ public class Main {
 
 
 
-
-
-
-
     }
 
     public static int[] ArrayString(String str) {
