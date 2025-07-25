@@ -14,6 +14,11 @@ public class Main {
         String strK = Arrays.toString(k);
         System.out.println(strK);
 
+        // sort method
+        Arrays.sort(k);
+        String sortedK = Arrays.toString(k);
+        System.out.println(sortedK);
+
         String [] cars = {"AUDI", "MAZDA", "LADA", "CHEVROLET", "TOYOTA"};
        // arrayPrint(cars);
 
