@@ -37,6 +37,9 @@ public class Main {
         int numberC = str.charAt(0);
         System.out.println(numberC);
 
+        String arrayS = Arrays.toString(ArrayString(str));
+        System.out.println(arrayS);
+
 
 
 
