@@ -11,7 +11,12 @@ public class Main {
 
         System.out.println(s1 == s2); // true
 
+        // String == check variables in memory
+
         System.out.println(s1 == s3); // false
+
+        // String equals() method also value check
+        System.out.println(s1.equals(s3)); //true
 
 
 
