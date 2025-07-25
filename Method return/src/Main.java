@@ -32,12 +32,28 @@ public class Main {
         /*float r = tax(1000000,12);
         System.out.println("r = " + r);*/
 
-        short r = summa((short) 5,(short) 6);
-        System.out.println("r = " + r);
+        /*short r = summa((short) 5,(short) 6);
+        System.out.println("r = " + r);*/
 
 
+        String str = checkPositive(3);
+        System.out.println(str);
 
 
+    }
+
+    public static String checkPositive(int x){
+
+        /*if(x != 0){
+            if(x > 0){
+                return "Positive";
+            }else {
+                return "Negative";
+            }
+        }else {
+            return "Zero";
+        }*/
+        return (x > 0)? "Positive" : (x < 0)? "Negative":"Zero";
     }
 
     public static short summa(short a,short b){
