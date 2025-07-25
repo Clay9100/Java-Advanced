@@ -28,7 +28,16 @@ public class Main {
         int x = Arrays.hashCode(k);
         System.out.println("x = " + x);*/
 
-        int []k = {2,1,3,5,64,0};
+        int []k = {2,1,3,-5,64,0};
+
+        System.out.println("Old array: " + Arrays.toString(k));
+
+        Arrays.sort(k);
+        System.out.println("Sort array: " + Arrays.toString(k));
+
+        System.out.println("Found element : " + Arrays.binarySearch(k, 3));
+
+
 
 
 
