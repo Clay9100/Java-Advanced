@@ -24,6 +24,9 @@ public class Main {
 
         String strC = Arrays.toString(cars);
         System.out.println(strC);
+        
+        int x = Arrays.hashCode(k);
+        System.out.println("x = " + x);
 
 
 
