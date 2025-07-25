@@ -8,7 +8,7 @@ public class Main {
         // this is lesson Array methods
 
 
-        int []k = {2,1,3,5,64,0};
+        /*int []k = {2,1,3,5,64,0};
         //arrayPrint(k);
 
         String strK = Arrays.toString(k);
@@ -26,7 +26,9 @@ public class Main {
         System.out.println(strC);
         
         int x = Arrays.hashCode(k);
-        System.out.println("x = " + x);
+        System.out.println("x = " + x);*/
+
+        int []k = {2,1,3,5,64,0};
 
 
 
